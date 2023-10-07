@@ -18,6 +18,7 @@
 		BA7A97B12A794CFA005F349F /* ProjetoTesteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7A97B02A794CFA005F349F /* ProjetoTesteUITestsLaunchTests.swift */; };
 		BA7A97BE2A794D91005F349F /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7A97BD2A794D90005F349F /* TaskManager.swift */; };
 		BA7A97C82A79A6D0005F349F /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7A97C72A79A6CF005F349F /* TaskTableViewCell.swift */; };
+		D446AA952ACF78500031AB70 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D446AA942ACF78500031AB70 /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +52,9 @@
 		BA7A97AA2A794CFA005F349F /* ProjetoTesteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjetoTesteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA7A97AE2A794CFA005F349F /* ProjetoTesteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjetoTesteUITests.swift; sourceTree = "<group>"; };
 		BA7A97B02A794CFA005F349F /* ProjetoTesteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjetoTesteUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		BA7A97BD2A794D90005F349F /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+		BA7A97BD2A794D90005F349F /* TaskManager.swift */ = {isa = PBXFileReference; indentWidth = 3; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 		BA7A97C72A79A6CF005F349F /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		D446AA942ACF78500031AB70 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				BA7A978D2A794CF2005F349F /* AppDelegate.swift */,
 				BA7A978F2A794CF2005F349F /* SceneDelegate.swift */,
 				BA7A97912A794CF2005F349F /* ViewController.swift */,
+				D446AA942ACF78500031AB70 /* TaskViewController.swift */,
 				BA7A97C72A79A6CF005F349F /* TaskTableViewCell.swift */,
 				BA7A97BD2A794D90005F349F /* TaskManager.swift */,
 				9E750BC62ABA344C00BC3B46 /* LaunchScreen.storyboard */,
@@ -269,6 +272,7 @@
 				BA7A97C82A79A6D0005F349F /* TaskTableViewCell.swift in Sources */,
 				BA7A97BE2A794D91005F349F /* TaskManager.swift in Sources */,
 				BA7A97902A794CF2005F349F /* SceneDelegate.swift in Sources */,
+				D446AA952ACF78500031AB70 /* TaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
