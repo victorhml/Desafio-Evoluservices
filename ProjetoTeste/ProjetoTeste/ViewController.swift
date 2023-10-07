@@ -59,6 +59,7 @@ extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         let deleteAction = UIContextualAction(style: .destructive, title: "Deletar") { _, _, _ in
             self.taskManager.deleteTasks(index: indexPath.row)
+            self.taskManager.saveTasks()
             tableView.deleteRows(at: [indexPath], with: .automatic)
         }
         
@@ -71,7 +72,6 @@ extension ViewController: UITableViewDataSource {
 extension ViewController: UITableViewDelegate {
     // TODO: implementar comportamento ao selecionar uma tarefa
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let cell = tableView.cellForRow(at: indexPath)
         tableView.deselectRow(at: indexPath, animated: true)
         
         var selectedTask: Task
